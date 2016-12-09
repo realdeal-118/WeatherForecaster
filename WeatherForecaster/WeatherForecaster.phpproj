@@ -18,11 +18,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="index.php" />
-    <Compile Include="Scraper.php" />
+    <Compile Include="Php\scraper.php" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="fonts\" />
+    <Folder Include="Php\" />
     <Folder Include="Photos\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
@@ -40,7 +41,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Index.html" />
     <Content Include="packages.config" />
     <Content Include="Photos\Weather Forecaster.png" />
     <Content Include="Photos\Weather Forecaster1.png" />

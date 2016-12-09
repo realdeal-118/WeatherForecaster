@@ -1,6 +1,18 @@
 <?php
 
+$contents=file_get_contents("http://www.weather-forecast.com/locations/San-Francisco/forecasts/latest");
 
+preg_match("/Weather (.*?) mild/i", $contents, $matches);
+
+print_r($matches);
+
+
+
+
+//preg_match('/3 Day Weather Forecast Summary:<\/b>
+//<span class="phrase">(.*?)</s', $contents, $matches);
+
+//print_r($matches);
 ?>
 
 
@@ -20,6 +32,7 @@
 
         html, body {
             height:100%;
+            margin-top:30px;
         }
         .container {
            
@@ -88,3 +101,4 @@
 
 </body>
 </html>
+
